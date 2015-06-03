@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<!--Ross Grambo
+INFO 344
+Web Crawler
+May 19, 2015-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+</head>
+<body>
+    <h1>Admin Dashboard <button id="clear">Clear</button><button id="start">Start</button></h1>
+    <input type="text" id="searchtext" /> <button id="search">Search</button>
+    <div id="result"></div>
+    <div id="chart"></div>
+    <h2>Workers:</h2>
+    <p id="workers"></p>
+    <h2>Performace Info:</h2>
+    <h3>Available Mbs: </h3><p id="counters"></p>
+    <h3>CPU Usage: </h3><p id="counters2"></p>
+    <h2>Number of Urls Crawled:</h2>
+    <p id="numofurls"></p>
+    <h2>Last 10 Urls:</h2>
+    <p id="lasturls"></p>
+    <h2>Queue Size:</h2>
+    <p id="numofqueue"></p>
+    <h2>Index Size:</h2>
+    <p id="numofindex"></p>
+    <h2>Trie Count:</h2>
+    <p id="triecount"></p>
+    <h2>Last Trie Word:</h2>
+    <p id="trieword"></p>
+    <h2>Errors:</h2>
+    <p id="errors"></p>
+
+    <!--Run the script to initially get info-->
+    <script src="dashboard.js"></script>
+</body>
+</html>

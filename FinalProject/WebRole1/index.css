@@ -1,0 +1,120 @@
+﻿/*
+    Ross Grambo
+    Info344
+    April 29, 2015
+*/
+
+body {
+    background-color: white;
+}
+
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+input {
+    display: block;
+    margin:auto;
+    width:300px;
+}
+
+#sugbox {
+    clear: both;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    margin: auto;
+    right:0;
+    left: 0;
+    top: 179px;
+}
+
+.resultImg {
+    width:150px;
+    height:100px;
+    margin:0px;
+    padding:0px;
+    float:left;
+}
+
+.sug {
+    background-color: white;
+    width: 300px;
+    height: 20px;
+}
+
+.sug:hover {
+    background: gray;
+}
+
+#url {
+    font-size: 7px;
+    color: gray;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 150px;
+}
+
+#player {
+	width: 500px;
+	height: 185px;
+	margin: auto;
+	background-color: gray;
+	background-size: 500px 200px;
+}
+
+#player img {
+	float: left;
+	margin-right: -100px;
+}
+
+#player h1 {
+	float: right;
+	margin: 0px;
+	margin-bottom: 50px;
+}
+
+#player table {
+	float: right;
+	clear: right;
+}
+
+table, th, td {
+	border: 1px solid red;
+}
+
+#main {
+    width: 80%;
+    margin: auto;
+}
+
+.result {
+    background-color: #F0F0F0;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    padding:0px;
+}
+
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}

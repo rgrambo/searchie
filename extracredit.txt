@@ -1,0 +1,10 @@
+Ross Grambo
+INFO 344
+Final Project
+June 2nd, 2015
+
+The extra credits I attempted was the Beautiful search results and the Google instant. 
+
+You will need to be the judge of the beautiful, however I did this by making the suggestionbox's div not affect the results div's location. I also added pictures for the search terms, and an overall feel of nice simplicity.
+
+For the Google instant, you should see it occur as you type in your query. It works much better once some of the searches have been cached, so to truly see it in action type something one time, delete it, then type it again and the results should seem instant!
